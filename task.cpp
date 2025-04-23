@@ -4,8 +4,8 @@ main()
 {
     int x,y;
     printf("Vvedite chislo x:\n");
-    scanr("%d",&x);
-    y=(x+5)/(x-5);
+    scanf("%d",&x);
+    y=(x+5)/(x-5)*2;
     printf("y=%d",y);
     getchar();
 }
